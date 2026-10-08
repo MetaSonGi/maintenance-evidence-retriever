@@ -1,0 +1,17 @@
+Validation date: 2026-10-09 Asia/Seoul
+Runtime: 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Command: python -m unittest -v
+test_asset_revision_date_and_citation (test_main.Tests.test_asset_revision_date_and_citation) ... ok
+test_duplicate_and_topk (test_main.Tests.test_duplicate_and_topk) ... ok
+test_historical_revision (test_main.Tests.test_historical_revision) ... ok
+test_no_match (test_main.Tests.test_no_match) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+OK
+
+Command: python main.py --html example-report.html
+Exit code: 0
+Sample input: synthetic, no personal/hardware data
+Checked: sample CLI output and standalone escaped HTML generation. Browser rendering and real hardware not verified.

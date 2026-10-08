@@ -1,0 +1,64 @@
+{
+  "query": "모터 과열 온도",
+  "asset_id": "motor-1",
+  "as_of": "2026-10-09",
+  "top_k": 2,
+  "documents": [
+    {
+      "id": "manual",
+      "revision": 1,
+      "asset_id": "motor-1",
+      "effective_from": "2026-01-01",
+      "source": "synthetic/manual-r1",
+      "sections": [
+        {
+          "id": "heat",
+          "text": "모터 과열 온도 90 도 기준은 이전 예제입니다."
+        }
+      ]
+    },
+    {
+      "id": "manual",
+      "revision": 2,
+      "asset_id": "motor-1",
+      "effective_from": "2026-09-01",
+      "source": "synthetic/manual-r2",
+      "sections": [
+        {
+          "id": "heat",
+          "text": "모터 과열 시 온도 이력을 확인합니다. 전원 차단은 별도 현장 절차를 따릅니다."
+        },
+        {
+          "id": "bearing",
+          "text": "베어링 진동 점검 주기를 기록합니다."
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "revision": 1,
+      "asset_id": "motor-2",
+      "effective_from": "2026-01-01",
+      "source": "synthetic/other",
+      "sections": [
+        {
+          "id": "heat",
+          "text": "모터 과열 온도 모터 과열 온도"
+        }
+      ]
+    },
+    {
+      "id": "manual",
+      "revision": 3,
+      "asset_id": "motor-1",
+      "effective_from": "2026-12-01",
+      "source": "synthetic/future",
+      "sections": [
+        {
+          "id": "heat",
+          "text": "미래 개정 모터 과열 기준"
+        }
+      ]
+    }
+  ]
+}

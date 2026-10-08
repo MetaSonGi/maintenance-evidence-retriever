@@ -1,0 +1,18 @@
+{
+  "status": "evidence_found",
+  "hits": [
+    {
+      "citation": "manual@2#heat",
+      "asset_id": "motor-1",
+      "source": "synthetic/manual-r2",
+      "text": "모터 과열 시 온도 이력을 확인합니다. 전원 차단은 별도 현장 절차를 따릅니다.",
+      "matched_terms": [
+        "과열",
+        "모터",
+        "온도"
+      ],
+      "score": 1.779659
+    }
+  ],
+  "generated_answer": null
+}
